@@ -1,0 +1,92 @@
+/* font-family: "Teko", sans-serif;
+font-family: "Jersey 20", sans-serif;
+font-family: "Oswald", sans-serif; */
+   
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212429;
+    box-sizing: content-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url(img/background_forest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    width:99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch{
+    width: 33rem;
+    height: 17rem;
+    position: absolute;
+    border-radius: 23px;
+    box-shadow: 0px 0px 6px 1px #ffffffa8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    backdrop-filter: blur(4px);
+}
+#display{
+    color: white;
+    font-size: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-shadow: 0 0 4px #00000063;
+}
+
+.container_units{
+    margin: 6px 0 0 8px;
+    position: absolute;
+    display: flex;
+    color: #908d8d;
+    font-size: 11px;
+    top: 10.4rem;
+    width: 18vw;
+    justify-content: space-between;
+}
+#mn{
+    margin-left: 6px;
+}
+
+#start_button{
+    text-decoration: underline green;
+}
+#reset_button{
+    text-decoration: underline orange;
+}
+
+.button{
+    padding: 3px 13px 2px 13px;
+    margin: 21rem 0 0 5px;
+    border-radius: 4px;
+    display: inline;
+    background: transparent;
+    color: lightblue;
+    box-shadow: 0px 0px 4px 1px #9594a1;
+    font-size: 26px;
+    font-family: "Teko", sans-serif;
+    border-style: none;
+}
+
+#reset_button{
+    display: none;
+}
+
